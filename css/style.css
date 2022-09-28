@@ -10791,6 +10791,17 @@ img {
     margin-left: 81px;
 }
 
+.bottom__page .bservices__section1-text.full-text {
+    max-width: unset;
+    padding: 30px 40px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.bottom__page .bservices__section1-text.full-text p:not(:last-of-type){
+    margin-bottom: 15px;
+}
+
 .bottom__page .bservices__section1-title {
     font-family: "Open Sans";
     font-style: normal;
@@ -11970,7 +11981,7 @@ footer.footer {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 27px;
     color: #474747;
 }
