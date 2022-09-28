@@ -11527,9 +11527,13 @@ img {
 }
 
 .header {
-    padding-top: 50px;
     padding-bottom: 48px;
 }
+
+.header .header-top .tradingview-widget-container{
+    margin-bottom: 15px;
+}
+
 
 .header__inner {
     display: -webkit-box;

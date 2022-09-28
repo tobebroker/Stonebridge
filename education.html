@@ -5,13 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/style.css?v98">
+    <link rel="stylesheet" href="css/style.css?v97">
     <title>Education</title>
 </head>
 <body class="bottom__page bottom__page-bframe3">
 <div class="ring__round" style="top: 1064px; right: 253px;"><img src="img/ps.png" alt=""></div>
 
 <header class="header menu__outside">
+    <div class="header-top ">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"/>
+            <script
+                    type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+                    async>
+                {
+                    "symbols"
+                :
+                    [
+                        {
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "S&P 500"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "US 100"
+                        },
+                        {
+                            "proName": "FX_IDC:EURUSD",
+                            "title": "EUR/USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "Bitcoin"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "Ethereum"
+                        }
+                    ],
+                        "showSymbolLogo"
+                :
+                    true,
+                        "colorTheme"
+                :
+                    "dark",
+                        "isTransparent"
+                :
+                    true,
+                        "displayMode"
+                :
+                    "adaptive",
+                        "locale"
+                :
+                    "en"
+                }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </div>
+
     <div id="overlay" class="visible-xs-block hide"></div>
     <div class="container">
         <div class="row">
@@ -133,19 +187,25 @@
                         </li>
                     </ul>
                     <ul class="footer__list2">
-                        <li class="footer__list2-title">Links</li>
-                        <li><a href="./index.html">Home</a></li>
+                        <li class="footer__list2-title">Company</li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Police</a></li>
                         <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./education.html">Education</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>
-                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Sign In</a></li>
+                    </ul>
+                    <ul class="footer__list2">
+                        <li class="footer__list2-title">Quick Links</li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Web Platform MT5</a></li>
+                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Open Account</a></li>
+                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Log In</a></li>
                     </ul>
                     <ul class="footer__list5">
                         <li class="footer__list2-title">Social Media</li>
                         <li>
                             <form action="" class="footer__list5-form">
                                 <input type="text" placeholder="Your-email">
-                                <button><img src="img/bottom-footer-arrow.png" alt=""></button>
+                                <button><img src="./img/bottom-footer-arrow.png" alt=""></button>
                             </form>
                         </li>
                         <li class="footer__list5-label">Get latest updates and offers</li>
@@ -169,7 +229,6 @@
         </div>
     </div>
 </footer>
-
 <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.js"></script>

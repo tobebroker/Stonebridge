@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/swiper.css">
-    <link rel="stylesheet" href="../css/style.css?v98">
+    <link rel="stylesheet" href="../css/style.css?v97">
     <title>Di</title>
 </head>
 <body class="bottom__page bottom__page-about">
@@ -19,6 +19,60 @@
 <div class="ring__round" style="top: 1700px; right: 102px;"><img src="../img/ps.png" alt=""></div>
 
 <header class="header menu__outside">
+    <div class="header-top ">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"/>
+            <script
+                    type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+                    async>
+                {
+                    "symbols"
+                :
+                    [
+                        {
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "S&P 500"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "US 100"
+                        },
+                        {
+                            "proName": "FX_IDC:EURUSD",
+                            "title": "EUR/USD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "Bitcoin"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "Ethereum"
+                        }
+                    ],
+                        "showSymbolLogo"
+                :
+                    true,
+                        "colorTheme"
+                :
+                    "dark",
+                        "isTransparent"
+                :
+                    true,
+                        "displayMode"
+                :
+                    "adaptive",
+                        "locale"
+                :
+                    "en"
+                }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </div>
+
     <div id="overlay" class="visible-xs-block hide"></div>
     <div class="container">
         <div class="row">
@@ -180,12 +234,18 @@
                         </li>
                     </ul>
                     <ul class="footer__list2">
-                        <li class="footer__list2-title">Collegamenti</li>
-                        <li><a href="./index.html">Casa</a></li>
-                        <li><a href="./about.html">Chi Siamo</a></li>
-                        <li><a href="./education.html">Formazione</a></li>
+                        <li class="footer__list2-title">Azienda</li>
+                        <li><a href="#">Termini & Condizioni</a></li>
+                        <li><a href="#">Politica Sulla Riservatezza</a></li>
+                        <li><a href="./about.html">Chi siamo</a></li>
                         <li><a href="./contact.html">Contattaci</a></li>
-                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Accedi</a></li>
+                    </ul>
+                    <ul class="footer__list2">
+                        <li class="footer__list2-title">Link veloci</li>
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Piattaforma Web MT5</a></li>
+                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Account aperto</a></li>
+                        <li><a href="https://account.stonebridgelimited.com?desk_id=62">Accesso</a></li>
                     </ul>
                     <ul class="footer__list5">
                         <li class="footer__list2-title">Social media</li>
