@@ -19083,6 +19083,7 @@ img {
 
     .bottom__page .babout__blocks {
         margin-top: 6px;
+        height: unset !important;
     }
 
     .bottom__page .babout__section2 {
