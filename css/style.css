@@ -11814,7 +11814,7 @@ footer.footer {
     font-size: 15px;
     line-height: 13px;
     color: #FFFFFF;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .footer__list4 .footer__list2-title {
@@ -18978,6 +18978,7 @@ img {
     .bottom__page .bservices__block {
         display: inline-block;
         margin-bottom: 30px;
+        height: auto !important;
     }
 
     .bottom__page-services .bservices__busin {
@@ -19058,13 +19059,15 @@ img {
     }
 
     .bottom__page-bframe3 .bservices__busin {
-        margin-bottom: 300px;
+        /*margin-bottom: 300px;*/
+    }
+
+    .bottom__page .bservices__busin-inner {
+        height: auto !important;
     }
 
     .bottom__page .babout__section1-inner {
-        padding: 30px 0;
-        padding-left: 34px;
-        padding-right: 34px;
+        padding: 30px 34px;
     }
 
     .bottom__page .babout__blocks {
@@ -19264,6 +19267,13 @@ img {
     .footer__inner {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    }
+
+    .footer__inner .footer__list1,
+    .footer__inner .footer__list2,
+    .footer__inner .footer__list5 {
+        margin-right: unset !important;
+        margin-bottom: 30px;
     }
 
     .header__items .header__item-list {
