@@ -11530,7 +11530,7 @@ img {
     padding-bottom: 48px;
 }
 
-.header .header-top .tradingview-widget-container{
+.header .header-top .tradingview-widget-container {
     margin-bottom: 15px;
 }
 
@@ -20269,4 +20269,8 @@ img {
         transform: translate3d(0, 0, 0);
         left: 0;
     }
+}
+
+.blog-wrap {
+    margin-top: 25px;
 }
